@@ -69,28 +69,28 @@ public class Menu {
                 /*
                 dni,nombre,apellido,telefono
                  */
-                case 1:
-                    clienteS.crearCliente(cargarDni(), cargarNombre(), cargarApellido(), cargarTelefono());
-                    break;
-                case 2:
-                    System.out.print("Ingrese id de cliente a eliminar: ");
-                    String idUsuario= sc.next();
-                    clienteS.eliminarClientePorId(idUsuario);
-                    break;
-                case 3:
-                    System.out.println(clienteS.mostrarClientes());
-                    break;
-                case 4:
-                    libroS.crearLibro(cargarLibro());
-                    break;
-                case 5:
-                    System.out.println("Ingrese isbn del libro a eliminar");
-                    String isbn = sc.next();
-                    libroS.eliminarLibroPorISBN(isbn);
-                    break;
-                case 6:
-                    libroS.mostrarLibros();
-                    break;
+//                case 1:
+//                    clienteS.crearCliente(cargarDni(), cargarNombre(), cargarApellido(), cargarTelefono());
+//                    break;
+//                case 2:
+//                    System.out.print("Ingrese id de cliente a eliminar: ");
+//                    String idUsuario= sc.next();
+//                    clienteS.eliminarClientePorId(idUsuario);
+//                    break;
+//                case 3:
+//                    System.out.println(clienteS.mostrarClientes());
+//                    break;
+//                case 4:
+//                    libroS.crearLibro(cargarLibro());
+//                    break;
+//                case 5:
+//                    System.out.println("Ingrese isbn del libro a eliminar");
+//                    String isbn = sc.next();
+//                    libroS.eliminarLibroPorISBN(isbn);
+//                    break;
+//                case 6:
+//                    libroS.mostrarLibros();
+//                    break;
 //                case 7:
 //                    usuarioService.imprimirUnUsuario(buscarPorCorreo());
 //                    break;
